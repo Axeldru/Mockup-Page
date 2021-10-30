@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: #1f2937;
+}
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    font-family:'Poppins';
+    letter-spacing: 5px;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 80px;
+    
+    
+}
+.nav-links { 
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    gap: 100px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: #E5E7EB;   
+     font-weight: bold;
+    text-decoration: none;
+    font-family:'Poppins',sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin: 20px;
+
+}
+#title{
+    color: #F9FAF8;
+    font-weight:bold;
+    font-size: 48px;
+    margin-left: 210px;
+    padding-top: 80px;
+}
+#subtitle{
+    color:#E5E7EB;
+    font-size: 18px;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+#Button{
+    font-size: 25px;
+    color: white;
+    background-color: #187bcd;
+    border: 10px solid #187bcd;
+    border-radius: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 220px;
+    margin-top: 30px;
+    font-family: 'bold';
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+/* maine animatie pe buton,poate background:radial gradient dar macar hover normal*/
+#Button:hover{ 
+    color: black;
+    background-color: white;
+    border:10px solid white;
+    transition: ease-in-out 200ms;
+}
+.photo{
+    float: right;
+    clear: right;
+    padding-right: 500px;
+    padding: 110px;
+}
+
+/*body*/
+.body{
+    background-color: whitesmoke;
+}
+.title-body{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 50px;
+}
+.Images{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+    justify-content: space-around; 
+    
+   
+}
+.subtext{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 90%;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    margin-top: 170px;
+    padding-left: 100px;}
+
+.thor{
+    margin-top: -20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: right;
+    font-family: 'Poppins';
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #1f2937;
+   padding-left: 20px;
+   background-color: #E5E7EB;
+}
+.text1{
+    display: grid;
+    justify-self: start;
+    font-size: 22px;
+    color: white;
+    
+
+
+}
+
+.button{
+    font-size: 20px;
+    padding-right: 700px;
+    background-color:#187bcd;  
+  color: white;
+  
+  border: 2px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  margin-right: 200px ;
+  cursor: pointer; 
+}
+.button:hover{ 
+    color: black;
+    background-color: white;
+    border:20px solid white;
+    transition: ease-in-out 200ms;
+}
+.yes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-inline: 200px;
+    margin-right: 200px;
+    margin-top: 220px;
+    border-radius: 2%;
+    border: 20px solid #187bcd;
+    background-color:#187bcd;  
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #1f2937;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-top: 220px;
+    padding-bottom : 30px;
+    color: white;
+}
