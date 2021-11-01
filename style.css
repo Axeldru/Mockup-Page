@@ -25,7 +25,6 @@
     display: flex;
     justify-content: space-around;
     font-size: 18px;
-    gap: 100px;
     list-style: none;
 }
 
@@ -101,15 +100,15 @@
    
 }
 .subtext{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 40px;
-    justify-content: space-around;
-    font-size: 24px;
-    font-weight: 400;
-    font-family: 'Poppins';
-    letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 40px;
+        justify-content: space-around;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Poppins';
+        letter-spacing: 3px;
 
 }
 
